@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cc96111-9bd7-485e-aa54-0abdd60f31fa">
+  <producedTypes>
+    <objectType typeId="61e173c3-4c7d-4e37-8dc3-3bcc51a1f45a" valueTypeId="4f9bae94-7665-4b4f-8efe-995271029d8e"/>
+    <refType typeId="ca227da8-5bc2-4be5-a078-02654169b6f7" valueTypeId="fdefd796-6a25-42e3-8da3-a6afb925c347"/>
+    <selectionType typeId="dcc8f11b-e323-49c1-bd80-e9a687415ed5" valueTypeId="26f588d1-adf3-4b69-8c64-6f91e1e9a85d"/>
+    <listType typeId="f885c961-7995-4486-93ca-b305889c2070" valueTypeId="78ce0fec-aa6a-4975-ba96-cdaf45067c2a"/>
+    <managerType typeId="de066b8f-44dc-407f-aa1b-302591c76ffe" valueTypeId="7309f500-bb00-4a83-9474-af20f03a248c"/>
+  </producedTypes>
+  <name>Компании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компании</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Компании.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Компании.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="131b9b36-0e9d-4bb6-9b29-01812bf1559b">
+      <name>IBM</name>
+      <description>IBM</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="1dafeda3-1d92-4003-a419-5901b7bf83a1">
+      <name>RELIANCE_BSE</name>
+      <description>RELIANCE BSE</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="fa84b923-dc9d-4058-bc50-983eb5dca5bb">
+      <name>SHOP_TRT</name>
+      <description>SHOP TRT</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

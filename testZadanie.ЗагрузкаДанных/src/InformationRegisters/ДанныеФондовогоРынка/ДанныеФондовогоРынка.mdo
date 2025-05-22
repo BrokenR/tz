@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0c7abf4-7b96-4cc5-a009-d28fa17ebaf3">
+  <producedTypes>
+    <selectionType typeId="03bb4ea6-5918-4bf3-93a6-e77d86a4467b" valueTypeId="2acd33b4-f8ee-4fd3-8bb1-5aea09bb1c08"/>
+    <listType typeId="5cc483eb-26e8-43f5-98df-11200c7312b6" valueTypeId="bf2e0243-3266-4c4a-8e41-bb2825e34c34"/>
+    <managerType typeId="156feed3-daaa-48b4-adea-5d3b12db9470" valueTypeId="eb81e3b3-20b7-4ff8-8f64-fbea82c9e2e1"/>
+    <recordSetType typeId="cd40eb10-5e43-4428-affb-738d4b98f2fd" valueTypeId="89a25d67-21a0-4ad4-93dc-0d7d4c6aa553"/>
+    <recordKeyType typeId="c040298c-8a6c-40ff-b906-fac08481c14e" valueTypeId="7a5e28b5-258b-4cad-8eef-ecf09af8baa7"/>
+    <recordType typeId="4e344e2b-b19d-428c-af4d-bbbd06c4013c" valueTypeId="8977e19c-a0f1-4583-a6c5-5dfe9f3939a4"/>
+    <recordManagerType typeId="ae792bd7-eab2-4eed-85ad-0bb331266c52" valueTypeId="82493c19-4f3c-4e93-87af-673b0f2b2fa5"/>
+  </producedTypes>
+  <name>ДанныеФондовогоРынка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные фондового рынка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fe2e3f98-fc5e-4da0-919d-17eba36993ee">
+    <name>open</name>
+    <synonym>
+      <key>ru</key>
+      <value>Open</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f3323186-5b2f-45d0-b251-6c84b5c78e40">
+    <name>high</name>
+    <synonym>
+      <key>ru</key>
+      <value>High</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="374b5bae-f0fe-43b5-b521-0c5f15637fa4">
+    <name>low</name>
+    <synonym>
+      <key>ru</key>
+      <value>Low</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f2462c8b-5a0c-4ccb-9a19-14de3426372e">
+    <name>close</name>
+    <synonym>
+      <key>ru</key>
+      <value>Close</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="db26981b-b9f9-4eec-a561-4b2e8264f740">
+    <name>Volume</name>
+    <synonym>
+      <key>ru</key>
+      <value>Volume</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d95bcd43-9825-417d-875b-a48f3cb29732">
+    <name>Компания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Компании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

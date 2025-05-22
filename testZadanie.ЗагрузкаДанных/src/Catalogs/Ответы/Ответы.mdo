@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d1aa668-f054-4f18-8c43-5af8b53266a3">
+  <producedTypes>
+    <objectType typeId="b6d9a5b7-66f1-45a1-b5ac-4ca51779a8f1" valueTypeId="9ff5d9b1-8b5c-43a7-bd74-a7205f5ec3b9"/>
+    <refType typeId="bb1b0afc-aaaa-44d9-9a72-5887a22e8d4f" valueTypeId="31294d83-eb6b-429e-af3e-5de58b55619f"/>
+    <selectionType typeId="bd030a51-e5c6-4162-b05a-8e2f7815cc90" valueTypeId="13164716-07e2-4310-a9dc-c95760dafd74"/>
+    <listType typeId="d3bcca3d-94a5-4034-b644-98babfc12dde" valueTypeId="6378c3d3-bd88-423e-b3c9-e737408a5184"/>
+    <managerType typeId="a082d23a-c9c6-40c7-b5b8-ecec92cd2ee4" valueTypeId="94de22e1-de19-4279-8424-0993af800e6c"/>
+  </producedTypes>
+  <name>Ответы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Ответы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Ответы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ed1adb09-c61d-4035-a206-c8c8273500b2">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

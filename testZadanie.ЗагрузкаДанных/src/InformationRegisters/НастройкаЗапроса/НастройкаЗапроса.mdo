@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="495ce013-2f41-413a-8afc-3ee7d1fd2053">
+  <producedTypes>
+    <selectionType typeId="c98aefb6-9d2f-45c1-895b-478cf46dcffe" valueTypeId="5f9fd605-aeca-485e-a207-002bebfda74e"/>
+    <listType typeId="372e869a-b6f0-4766-8707-3f557bef5d7d" valueTypeId="808eeb29-67a5-4e95-9e47-d76b783f5541"/>
+    <managerType typeId="62610bce-a345-42a8-877f-11414ec502d9" valueTypeId="e5cb9b78-93a3-4783-8e1c-db2f16f1a875"/>
+    <recordSetType typeId="4de871ce-5508-4852-ab0c-a3cf21037fc5" valueTypeId="16fb850b-14e4-4e7c-b401-481d012ea743"/>
+    <recordKeyType typeId="74d49d05-9742-46cf-8050-69321747ee6c" valueTypeId="974b852f-e18e-49c9-a414-f520d8b718b6"/>
+    <recordType typeId="742dfac3-49b8-45eb-8d4e-1b1015f23515" valueTypeId="4044d370-1949-4937-87e1-b9353131a6f3"/>
+    <recordManagerType typeId="4fb8e860-7cda-4867-9d7f-f49a5437fa9a" valueTypeId="29dc8be3-09d8-4dc6-812c-91e975abd351"/>
+  </producedTypes>
+  <name>НастройкаЗапроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка запроса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="290e0693-2dfe-437a-8d8b-f2a6c80860e9">
+    <name>function</name>
+    <synonym>
+      <key>ru</key>
+      <value>Function</value>
+    </synonym>
+    <type>
+      <types>EnumRef.function</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e6f475ce-ff47-4c93-a381-ef891a27f902">
+    <name>symbol</name>
+    <synonym>
+      <key>ru</key>
+      <value>Symbol</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Компании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5c1d84cb-e86a-4fa2-9dd1-cabd0d62cc92">
+    <name>outputsize</name>
+    <synonym>
+      <key>ru</key>
+      <value>Outputsize</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Outputsize</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

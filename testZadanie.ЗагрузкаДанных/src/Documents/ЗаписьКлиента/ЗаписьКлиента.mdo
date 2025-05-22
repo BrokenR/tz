@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d562da1-5bea-45eb-a847-3eb44be4fe09">
+  <producedTypes>
+    <objectType typeId="846ee254-fefa-456f-8667-de84a2ee5311" valueTypeId="3229cdba-1b56-4f61-b960-4d95324ce461"/>
+    <refType typeId="8029feb4-cd53-4e9d-85c2-c39b432e96c7" valueTypeId="3c2ae779-f717-45ad-b669-63d1edac3a76"/>
+    <selectionType typeId="981fb054-15a0-4053-91cf-2b27cb47bd71" valueTypeId="2823f04e-de70-41a7-8226-b021e1e10c81"/>
+    <listType typeId="397e084e-bb35-4600-8e91-2e1bca1bf872" valueTypeId="d88be801-b364-49ce-99ed-dc122e11d698"/>
+    <managerType typeId="4ab6039e-ed26-42e8-baba-348a55f94fd8" valueTypeId="3c82282e-757f-4bfb-9aa4-56566ab4132a"/>
+  </producedTypes>
+  <name>ЗаписьКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаписьКлиента.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаписьКлиента.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ЗаписиКлиентов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e1e0e9a1-a56a-43da-8a59-8d055060748d">
+    <name>Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Врач</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ef89a8b-d4a5-4f6b-aba2-aee69cdfe7f1">
+    <name>ДатаВремяНачалоПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время начало приема</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74476a96-5c77-4401-a753-818806f9d697">
+    <name>ДатаВремяОкончаниеПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время окончание приема</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6cb8c564-2819-4076-b573-352a3b2a71ba">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="663f7299-f2cf-4fc9-a3dc-2701c33bdb18">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

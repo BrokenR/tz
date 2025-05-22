@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91f5b697-b497-40d1-9cfb-4ef8e5ef9ba0">
+  <name>ЗД_HTTPСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>З д HTTPСервис</value>
+  </synonym>
+  <rootURL>TZ</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="1a505edf-5391-490b-aa67-fd8841811c6d">
+    <name>endpoint</name>
+    <synonym>
+      <key>ru</key>
+      <value>Endpoint</value>
+    </synonym>
+    <template>/endpoint</template>
+    <methods uuid="49cfcc0c-65cd-4aeb-b393-a524653ae30e">
+      <name>Метод1</name>
+      <handler>endpointМетод1</handler>
+    </methods>
+    <methods uuid="486fe0a4-6558-4360-b62b-7695343ca996">
+      <name>Метод2</name>
+      <httpMethod>POST</httpMethod>
+      <handler>endpointМетод2</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

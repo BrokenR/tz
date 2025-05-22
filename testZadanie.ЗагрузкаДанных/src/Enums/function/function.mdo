@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bbbd662-a205-4e9b-b103-f22f49e47926">
+  <producedTypes>
+    <refType typeId="58ee81c4-7848-4183-8ffe-03a0107b23ce" valueTypeId="333d92f7-0fbc-4c2c-af32-70931fb2ee78"/>
+    <listType typeId="66ed0fcf-c95d-412e-b3b8-f3e110ac9384" valueTypeId="1127a524-777c-449d-9f30-77badc40a7b8"/>
+    <managerType typeId="2faf768c-65b7-491e-94c7-31680790878e" valueTypeId="396850f7-e213-4682-841e-6307b20a95a5"/>
+  </producedTypes>
+  <name>function</name>
+  <synonym>
+    <key>ru</key>
+    <value>Function</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="93d7aa78-6f9e-448f-abaf-4636788fecf9">
+    <name>TIME_SERIES_INTRADAY</name>
+    <synonym>
+      <key>ru</key>
+      <value>TIME SERIES INTRADAY</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77fbbf9a-467d-4cf8-b76d-d3d4040d9ec6">
+    <name>TIME_SERIES_DAILY</name>
+    <synonym>
+      <key>ru</key>
+      <value>TIME SERIES DAILY</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c23095f3-0dca-4287-a302-22ab66750a5d">
+    <name>TIME_SERIES_DAILY_ADJUSTED</name>
+    <synonym>
+      <key>ru</key>
+      <value>TIME SERIES DAILY ADJUSTED</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="639df583-2507-473c-9dc7-5f078b1860b2">
+    <name>TIME_SERIES_WEEKLY</name>
+    <synonym>
+      <key>ru</key>
+      <value>TIME SERIES WEEKLY</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

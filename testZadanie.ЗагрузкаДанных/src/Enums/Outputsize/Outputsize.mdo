@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4675627d-0f99-4654-8eb5-72f13de9ef21">
+  <producedTypes>
+    <refType typeId="95ae47e4-504b-4bd6-a5c7-0acde5311cb3" valueTypeId="56c397e8-354a-485b-821c-0e1f0f75f3f0"/>
+    <listType typeId="6ff11c19-3f88-4ab2-a8e0-263058a5ee1b" valueTypeId="8000771b-680e-409e-b39a-f417b204e3b9"/>
+    <managerType typeId="86832626-6c78-4ed1-ae0b-c0ced6168491" valueTypeId="c90b96be-78c2-400e-9504-d0728fdb3c8f"/>
+  </producedTypes>
+  <name>Outputsize</name>
+  <synonym>
+    <key>ru</key>
+    <value>Outputsize</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8458a494-b463-475e-aec4-46f5e74a2cd5">
+    <name>compact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Compact</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11f46864-5943-4ea9-a6cf-e0ea9a728c47">
+    <name>full</name>
+    <synonym>
+      <key>ru</key>
+      <value>Full</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

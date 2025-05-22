@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01427409-f4cc-4c4d-8648-5fde09277495">
+  <producedTypes>
+    <selectionType typeId="fc4c5909-28ae-48bc-9075-7d66de9bf954" valueTypeId="e10d2866-5338-47ea-b7aa-3661ef56c73b"/>
+    <listType typeId="302911c6-ce74-4e5a-9d1b-2136824e555c" valueTypeId="e04aa1e9-9da2-45fc-909e-2b92c8bb1ca0"/>
+    <managerType typeId="e66e7b77-c3fd-40b4-9098-4ed7595a4cae" valueTypeId="2d1194c4-b19d-4f9a-91a9-a904c9fadb30"/>
+    <recordSetType typeId="51431a7a-f202-46a3-a000-ebc74a1a48db" valueTypeId="9ce52d68-33f6-416f-80dd-b0bf3f2db952"/>
+    <recordKeyType typeId="705e8bf7-6e34-43a7-9492-881ef3d8a38e" valueTypeId="0f5eb896-c780-4ef2-b572-1d9eccce11ee"/>
+    <recordType typeId="3f4ea576-c107-49d9-8af5-18725ae3ce99" valueTypeId="26bd2e7e-bcd6-4df8-87e5-18902fdc1a2b"/>
+    <recordManagerType typeId="40ae1634-0e6d-45f4-a3a1-50ab561b4727" valueTypeId="bdc39415-fa4a-4574-ac69-2a63d21376f4"/>
+  </producedTypes>
+  <name>ЗаписиКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записи клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="b1234641-7af1-4a99-ab33-7606763eb672">
+    <name>Врач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Врач</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c031dcf6-7f1a-439f-a85e-d82755c32c42">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fd944092-dc56-4bad-ac53-7b2dbcf02ed0">
+    <name>ДатаВремяНачалоПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время начало приема</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="26453ae7-4bc3-4e09-a5c7-0a66b3e22a0b">
+    <name>ДатаВремяОкончаниеПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время окончание приема</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

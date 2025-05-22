@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40038102-c241-48d3-a905-c53c62c45713">
+  <name>Загрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка</value>
+  </synonym>
+  <methodName>CommonModule.ЗД_РаботаСРынком.ОбновитьДанныеРынка</methodName>
+  <description>Обновить данные рынка</description>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

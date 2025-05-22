@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92e6fc8f-fa6e-4cb3-97b2-2befe0443ec3">
+  <name>ЗагрузкаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="46a13a1d-688b-4704-ab98-4661140da8bb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="766cf364-5e78-4319-90c4-f85e18e22bdb"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a90b1cf6-8a67-485d-b55a-8236bd474e0d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3f472813-6946-4189-9ada-89e870b37d1a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="587e3770-ecea-4032-8a4d-1baf48b6054a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="30842345-e906-43fc-a41c-234656a9da06"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="642da157-233a-4d44-b1b1-cb524087a444"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ЗД_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ЗД_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="791f989c-910d-4758-a8fc-175b682e663d" extendedConfigurationObject="1960865c-dcd0-4330-a2b6-025d2f97e355">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ФондовыйРынок</subsystems>
+  <subsystems>Subsystem.Публикация</subsystems>
+  <roles>Role.ЗД_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.ЗД_РаботаСРынком</commonModules>
+  <httpServices>HTTPService.ЗД_HTTPСервис</httpServices>
+  <scheduledJobs>ScheduledJob.Загрузка</scheduledJobs>
+  <constants>Constant.ЗД_Константа1</constants>
+  <catalogs>Catalog.Компании</catalogs>
+  <catalogs>Catalog.Ответы</catalogs>
+  <documents>Document.ЗаписьКлиента</documents>
+  <enums>Enum.Outputsize</enums>
+  <enums>Enum.function</enums>
+  <informationRegisters>InformationRegister.НастройкаЗапроса</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеФондовогоРынка</informationRegisters>
+  <informationRegisters>InformationRegister.ЗаписиКлиентов</informationRegisters>
+</mdclass:Configuration>

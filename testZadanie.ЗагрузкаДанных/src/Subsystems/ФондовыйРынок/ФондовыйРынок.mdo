@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eabe70bb-d934-47df-b0ca-1319d2381612">
+  <name>ФондовыйРынок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фондовый рынок</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.AppearanceCircleYellow</picture>
+  </picture>
+  <content>Catalog.Компании</content>
+  <content>Catalog.Ответы</content>
+  <content>InformationRegister.НастройкаЗапроса</content>
+  <content>InformationRegister.ДанныеФондовогоРынка</content>
+</mdclass:Subsystem>
